@@ -3,6 +3,7 @@ cd frontend
 
 npm create vite@latest . -- --template react-ts
 
+npm i
 npm run dev
 
 npm install tailwindcss @tailwindcss/vite
