@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from api.routes.users import router as user_routes
+from api.routes.feedback import router as feedback_routes
 
 app = FastAPI()
 
@@ -13,7 +13,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(user_routes, prefix="/users", tags=["users"])
+app.include_router(feedback_routes, prefix="/feedback", tags=["feedback"])
 
 @app.get("/")
 def root():
