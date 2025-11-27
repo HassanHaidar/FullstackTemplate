@@ -1,0 +1,72 @@
+[
+  {
+    "timestamp": "2025-11-23T18:32:10Z",
+    "service": "billing-api",
+    "severity": "ERROR",
+    "message": "Failed to charge customer 123",
+    "requestId": "abc-123"
+  },
+  {
+    "timestamp": "2025-11-23T19:10:45Z",
+    "service": "user-api",
+    "severity": "INFO",
+    "message": "User profile retrieved successfully",
+    "requestId": "req-9921"
+  },
+  {
+    "timestamp": "2025-11-23T20:01:02Z",
+    "service": "auth-service",
+    "severity": "WARN",
+    "message": "Multiple failed login attempts detected for user 42",
+    "requestId": "login-7782"
+  },
+  {
+    "timestamp": "2025-11-23T21:14:29Z",
+    "service": "payment-gateway",
+    "severity": "ERROR",
+    "message": "Stripe connection timeout during payment processing",
+    "requestId": "pay-4410"
+  },
+  {
+    "timestamp": "2025-11-23T22:03:55Z",
+    "service": "inventory-service",
+    "severity": "INFO",
+    "message": "Stock levels updated for SKU-5031",
+    "requestId": "inv-1123"
+  },
+  {
+    "timestamp": "2025-11-23T22:47:18Z",
+    "service": "email-service",
+    "severity": "ERROR",
+    "message": "SMTP server not responding, failed to send receipt email",
+    "requestId": "mail-8720"
+  },
+  {
+    "timestamp": "2025-11-23T23:12:40Z",
+    "service": "billing-api",
+    "severity": "DEBUG",
+    "message": "Calculated prorated charges for subscription 83921",
+    "requestId": "abc-999"
+  },
+  {
+    "timestamp": "2025-11-24T00:33:15Z",
+    "service": "user-api",
+    "severity": "ERROR",
+    "message": "Failed to update user email preference",
+    "requestId": "req-5500"
+  },
+  {
+    "timestamp": "2025-11-24T01:05:09Z",
+    "service": "auth-service",
+    "severity": "INFO",
+    "message": "User 42 successfully authenticated",
+    "requestId": "login-8800"
+  },
+  {
+    "timestamp": "2025-11-24T02:14:22Z",
+    "service": "analytics-service",
+    "severity": "WARN",
+    "message": "Delayed event ingestion detected",
+    "requestId": "ana-3321"
+  }
+]
